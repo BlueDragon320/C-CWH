@@ -2,6 +2,8 @@
     "files.associations": {
         "Q1.C": "cpp",
         "q1.C": "cpp",
-        "q1&2.C": "cpp"
+        "q1&2.C": "cpp",
+        "algorithm": "cpp",
+        "format": "cpp"
     }
 }
