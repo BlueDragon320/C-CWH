@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int marks[90];
+    int marks[90]; //Reserves space to store 90 integers
 
     marks[0] = 45;
     marks[1] = 95;
