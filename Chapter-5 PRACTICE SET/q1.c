@@ -1,12 +1,10 @@
 #include <stdio.h>
-
+float average(int, int, int);
 float average (int a, int b, int c){
-    return (a+b+c)/3.0;
+    return (a+b+c)/3;
 }
 
 int main(){
-    int a = 10, b = 15, c = 25;
-    printf("Average of a, b & c is : %f", average(a, b, c));
-
+    printf("The average of a, b, c is %.2f", average(1,2,3));
     return 0;
 }

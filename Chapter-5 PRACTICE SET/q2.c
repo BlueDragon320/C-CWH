@@ -1,11 +1,11 @@
 #include <stdio.h>
-float tempr ( float a ){
-    return (a * 9.0/5) + 32;
+float c2f(float);
+float c2f(float c){
+    return ((9*c)/5) + 32;
 }
-int main(){
-    float celsius = 10;
-    float f = tempr(celsius);
-    printf("Temperature of %.2f C in F is %.2f", celsius, f);
 
+int main(){
+    float c = 45;
+    printf("Celsius to Fahrenheit for %f is %f", c, c2f(c));
     return 0;
 }
